@@ -1,5 +1,5 @@
 {
-    "name": "lowbase/yii2-cms",
+    "name": "macfiss/yii2-cms",
     "description": "Yii 2 CMS",
     "keywords": ["yii2", "framework", "cms", "lowbase"],
     "homepage": "http://www.lowbase.ru/",
@@ -14,7 +14,7 @@
         "yiisoft/yii2": "2.0.7",
         "yiisoft/yii2-bootstrap": "2.0.6",
         "yiisoft/yii2-swiftmailer": "2.0.5",
-        "macfiss/yii2-user": "*",
+        "macfiss/yii2-user": "dev-master",
         "macfiss/yii2-document": "*",
         "dmstr/yii2-adminlte-asset": "2.2.4"
     },
@@ -49,5 +49,15 @@
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/macfiss/yii2-user.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/macfiss/yii2-document.git"
+        }
+    ]
 }
